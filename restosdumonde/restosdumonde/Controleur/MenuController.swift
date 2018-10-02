@@ -11,19 +11,21 @@ import UIKit
 class MenuController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     let celluleId = "MenuCelluleId"
+    var menus = [Menu]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Les menus du monde"
         maCollectionView.delegate = self
         maCollectionView.dataSource = self
-        // Do any additional setup after loading the view.
+        menus = LesPlats.obtenir.lesMenus()
+        maCollectionView.reloadData()
     }
     
     @IBOutlet weak var maCollectionView: UICollectionView!
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return menus.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

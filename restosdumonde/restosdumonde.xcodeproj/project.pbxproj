@@ -19,6 +19,8 @@
 		E7F992FE2163E0BF00CC0EE6 /* MenuCellule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992FD2163E0BF00CC0EE6 /* MenuCellule.swift */; };
 		E7F993002163E41A00CC0EE6 /* plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992FF2163E41A00CC0EE6 /* plat.swift */; };
 		E7F993022163E45600CC0EE6 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F993012163E45600CC0EE6 /* enum.swift */; };
+		E7F993042163E67E00CC0EE6 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F993032163E67E00CC0EE6 /* menu.swift */; };
+		E7F993062163E80A00CC0EE6 /* lesplats.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F993052163E80A00CC0EE6 /* lesplats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		E7F992FD2163E0BF00CC0EE6 /* MenuCellule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellule.swift; sourceTree = "<group>"; };
 		E7F992FF2163E41A00CC0EE6 /* plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plat.swift; sourceTree = "<group>"; };
 		E7F993012163E45600CC0EE6 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		E7F993032163E67E00CC0EE6 /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		E7F993052163E80A00CC0EE6 /* lesplats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesplats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				E7F992FF2163E41A00CC0EE6 /* plat.swift */,
 				E7F993012163E45600CC0EE6 /* enum.swift */,
+				E7F993032163E67E00CC0EE6 /* menu.swift */,
+				E7F993052163E80A00CC0EE6 /* lesplats.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -189,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F993042163E67E00CC0EE6 /* menu.swift in Sources */,
 				E7F992F52163D88700CC0EE6 /* MonTabBar.swift in Sources */,
+				E7F993062163E80A00CC0EE6 /* lesplats.swift in Sources */,
 				E7F992FE2163E0BF00CC0EE6 /* MenuCellule.swift in Sources */,
 				E7F992F12163D5D300CC0EE6 /* MenuController.swift in Sources */,
 				E7F992FA2163DB3900CC0EE6 /* MonNavigateur.swift in Sources */,

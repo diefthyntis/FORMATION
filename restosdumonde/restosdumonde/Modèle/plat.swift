@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class plat {
+class Plat {
     private var _typePlat: TypePlat
     private var _pays: String
     private var _descriptionPlat: String
