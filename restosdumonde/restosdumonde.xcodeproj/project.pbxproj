@@ -17,6 +17,8 @@
 		E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F72163D8DD00CC0EE6 /* Constante.swift */; };
 		E7F992FA2163DB3900CC0EE6 /* MonNavigateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F92163DB3900CC0EE6 /* MonNavigateur.swift */; };
 		E7F992FE2163E0BF00CC0EE6 /* MenuCellule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992FD2163E0BF00CC0EE6 /* MenuCellule.swift */; };
+		E7F993002163E41A00CC0EE6 /* plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992FF2163E41A00CC0EE6 /* plat.swift */; };
+		E7F993022163E45600CC0EE6 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F993012163E45600CC0EE6 /* enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		E7F992F72163D8DD00CC0EE6 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
 		E7F992F92163DB3900CC0EE6 /* MonNavigateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNavigateur.swift; sourceTree = "<group>"; };
 		E7F992FD2163E0BF00CC0EE6 /* MenuCellule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellule.swift; sourceTree = "<group>"; };
+		E7F992FF2163E41A00CC0EE6 /* plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plat.swift; sourceTree = "<group>"; };
+		E7F993012163E45600CC0EE6 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		E7F992EB2163D4B900CC0EE6 /* Modèle */ = {
 			isa = PBXGroup;
 			children = (
+				E7F992FF2163E41A00CC0EE6 /* plat.swift */,
+				E7F993012163E45600CC0EE6 /* enum.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -188,7 +194,9 @@
 				E7F992F12163D5D300CC0EE6 /* MenuController.swift in Sources */,
 				E7F992FA2163DB3900CC0EE6 /* MonNavigateur.swift in Sources */,
 				E7F992F32163D61500CC0EE6 /* CarteController.swift in Sources */,
+				E7F993022163E45600CC0EE6 /* enum.swift in Sources */,
 				E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */,
+				E7F993002163E41A00CC0EE6 /* plat.swift in Sources */,
 				E7F992DA2163D14200CC0EE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
