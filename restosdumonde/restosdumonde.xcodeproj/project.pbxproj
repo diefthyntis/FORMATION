@@ -13,6 +13,8 @@
 		E7F992E42163D14400CC0EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F992E22163D14400CC0EE6 /* LaunchScreen.storyboard */; };
 		E7F992F12163D5D300CC0EE6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F02163D5D300CC0EE6 /* MenuController.swift */; };
 		E7F992F32163D61500CC0EE6 /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F22163D61500CC0EE6 /* CarteController.swift */; };
+		E7F992F52163D88700CC0EE6 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F42163D88700CC0EE6 /* MonTabBar.swift */; };
+		E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F72163D8DD00CC0EE6 /* Constante.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E7F992E52163D14400CC0EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F992F02163D5D300CC0EE6 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		E7F992F22163D61500CC0EE6 /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
+		E7F992F42163D88700CC0EE6 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		E7F992F72163D8DD00CC0EE6 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E7F992D82163D14200CC0EE6 /* restosdumonde */ = {
 			isa = PBXGroup;
 			children = (
+				E7F992F62163D8C200CC0EE6 /* Utilitaire */,
 				E7F992EB2163D4B900CC0EE6 /* Modèle */,
 				E7F992EC2163D4CF00CC0EE6 /* Vue */,
 				E7F992ED2163D4D500CC0EE6 /* Controleur */,
@@ -88,8 +93,17 @@
 			children = (
 				E7F992F02163D5D300CC0EE6 /* MenuController.swift */,
 				E7F992F22163D61500CC0EE6 /* CarteController.swift */,
+				E7F992F42163D88700CC0EE6 /* MonTabBar.swift */,
 			);
 			path = Controleur;
+			sourceTree = "<group>";
+		};
+		E7F992F62163D8C200CC0EE6 /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				E7F992F72163D8DD00CC0EE6 /* Constante.swift */,
+			);
+			path = Utilitaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F992F52163D88700CC0EE6 /* MonTabBar.swift in Sources */,
 				E7F992F12163D5D300CC0EE6 /* MenuController.swift in Sources */,
 				E7F992F32163D61500CC0EE6 /* CarteController.swift in Sources */,
+				E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */,
 				E7F992DA2163D14200CC0EE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
