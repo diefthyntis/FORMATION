@@ -12,7 +12,7 @@ class MenuController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Les menus du monde"
         // Do any additional setup after loading the view.
     }
     

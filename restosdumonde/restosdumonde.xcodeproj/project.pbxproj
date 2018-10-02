@@ -15,6 +15,7 @@
 		E7F992F32163D61500CC0EE6 /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F22163D61500CC0EE6 /* CarteController.swift */; };
 		E7F992F52163D88700CC0EE6 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F42163D88700CC0EE6 /* MonTabBar.swift */; };
 		E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F72163D8DD00CC0EE6 /* Constante.swift */; };
+		E7F992FA2163DB3900CC0EE6 /* MonNavigateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F992F92163DB3900CC0EE6 /* MonNavigateur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E7F992F22163D61500CC0EE6 /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
 		E7F992F42163D88700CC0EE6 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		E7F992F72163D8DD00CC0EE6 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		E7F992F92163DB3900CC0EE6 /* MonNavigateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNavigateur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				E7F992F02163D5D300CC0EE6 /* MenuController.swift */,
 				E7F992F22163D61500CC0EE6 /* CarteController.swift */,
 				E7F992F42163D88700CC0EE6 /* MonTabBar.swift */,
+				E7F992F92163DB3900CC0EE6 /* MonNavigateur.swift */,
 			);
 			path = Controleur;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				E7F992F52163D88700CC0EE6 /* MonTabBar.swift in Sources */,
 				E7F992F12163D5D300CC0EE6 /* MenuController.swift in Sources */,
+				E7F992FA2163DB3900CC0EE6 /* MonNavigateur.swift in Sources */,
 				E7F992F32163D61500CC0EE6 /* CarteController.swift in Sources */,
 				E7F992F82163D8DD00CC0EE6 /* Constante.swift in Sources */,
 				E7F992DA2163D14200CC0EE6 /* AppDelegate.swift in Sources */,

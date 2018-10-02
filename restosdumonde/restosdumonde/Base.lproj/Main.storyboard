@@ -46,7 +46,7 @@
         <!--Menu-->
         <scene sceneID="AYe-SM-xb5">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qkm-bD-QSI" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qkm-bD-QSI" customClass="MonNavigateur" customModule="restosdumonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Menu" id="eyr-O2-IJg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mFD-Sv-9zL">
@@ -94,7 +94,7 @@
         <!--Carte-->
         <scene sceneID="nx1-fo-d4U">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cXz-bB-dzb" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cXz-bB-dzb" customClass="MonNavigateur" customModule="restosdumonde" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Carte" id="9az-il-WoY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uMu-o2-UOo">
