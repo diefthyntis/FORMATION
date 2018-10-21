@@ -13,11 +13,18 @@ class MenuController: UIViewController,UICollectionViewDelegate,UICollectionView
     let celluleId = "MenuCelluleId"
     var menus = [Menu]()
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Les menus du monde"
         maCollectionView.delegate = self
         maCollectionView.dataSource = self
+        
+        let vue = UIView(frame: maCollectionView.bounds)
+        vue.layer.addSublayer(Degrade())
+        maCollectionView.backgroundView = vue
+        
+        
         menus = LesPlats.obtenir.lesMenus()
         maCollectionView.reloadData()
     }
@@ -29,8 +36,10 @@ class MenuController: UIViewController,UICollectionViewDelegate,UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let menu = menus[indexPath.item]
         if let cellule = maCollectionView.dequeueReusableCell(withReuseIdentifier: celluleId, for: indexPath) as? MenuCellule {
             cellule.backgroundColor = GRIS_TRES_FONCE
+            cellule.MiseEnPlace(menu: menu)
             return cellule
         }
         return UICollectionViewCell()
